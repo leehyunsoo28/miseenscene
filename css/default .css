@@ -1,0 +1,63 @@
+/* reset */
+body,h1,h2,ul,li,p { margin:0; padding:0; }
+ul { list-style:none; padding:0; margin:0; }
+img { border:0; vertical-align:top; margin: 0;}
+* { margin: 0; padding: 0;}
+
+/* base */
+body { font-family:"Noto Sans Kr"; }
+
+
+/*layout*/
+#header { background-repeat:repeat-x; }
+#header .inner { position:relative; margin:0 auto; width:1180px; height:134px; }
+
+#visual { margin-bottom:12px; margin-top: 0px;  background-image:url(../images/visual.png); background-repeat:no-repeat; background-position:center top;}
+#visual .inner { position:relative; margin:0 auto; width:1200px; height:648px; margin-top: 40px; }
+
+#contents { margin:0 auto; width:1200px; height:654px; margin-bottom:48px;; margin-top: 12px;}
+
+#footer { background-repeat:repeat-x; }
+#footer .inner { position:relative; margin:0 auto; width:1200px; height:181px; padding-top:12px; /*border: 2px solid yellow;*/ }
+
+
+/* header */
+h1 { position:absolute; left:0px; top:19px;  margin-right: 370px; }
+.gnb { position:absolute; right:0px; top:90px; height:15px; margin-right: 0px; margin-bottom: 20px; }
+.gnb li { float:left; margin-left: 69px; }
+.top_gnb { position:absolute; left:0px; top:29px; height:8px; margin-right: 0px; margin-left: 1036px; margin-bottom: 35px;}
+.top_gnb li { float:left; margin-left: 22px;} 
+.top_gnb li .cech {margin-left: 0px;}
+.hr { height: 4px; background-color:black; }
+.gnb a { text-decoration: none; color: black; }
+.gnb a:hover { font-weight: bold;}
+  
+/* visual */
+.button1 { position:absolute; left:483px; top:435px; }
+.button2 { position:absolute; left:840px; top:435px; }
+#visual .inner .h1 { font-size: 88px; line-height: 1em; font-weight: 100; padding-top: 150px; }
+.h2 { font-size: 120px; line-height: 1em; font-weight: bold; margin-top: 14px; }
+.h4 { font-size: 28px; line-height: 1em; margin-top: 68px;}
+
+#visual { /*border: 2px solid blue;*/ }
+
+
+/* contents */
+
+.group1 { overflow:hidden; margin-bottom:12px;}
+.group1 .banner1 { float: left; margin-right:12px; }
+.group1 .banner2 { float: left; margin-right:12px; }
+.group1 .banner3 { float: left; margin-right: 12px; }
+.group1 .banner4 { float: left; margin-right: 12px; position: absolute; margin-left: 909px;}
+
+.group2 { overflow:hidden; margin-bottom:12px;}
+.group2 .insta1 { float: left; margin-right:12px; }
+.group2 .insta2 { float: left; margin-right:12px; }
+.group2 .insta3 { float: left; margin-right:12px; position: absolute; margin-left: 909px;}
+
+
+/* footer */
+#footer {background-color:black;}
+.copyright { text-align:left; margin-top: 59px;}
+.sns { position:absolute; right:0px;  height: 0px; top: 59px;}
+.copyright {color: white; }
